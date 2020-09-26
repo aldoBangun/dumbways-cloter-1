@@ -29,8 +29,7 @@ function stringToBin(input){
     }).join(' ');
 }
 
+const input = 'Cipto';
+const output = stringToBin(input);
 
-
-const userInput = prompt('Input String To Convert : ');
-
-alert(`Result:\n${stringToBin(userInput)}`);
+console.log(output);
